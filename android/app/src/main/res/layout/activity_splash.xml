@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/splash_screen">
+
+        <ProgressBar
+            android:id="@+id/splash_screen_progress_bar"
+            android:layout_width="250dp"
+            android:layout_height="9dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:progressDrawable="@drawable/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            android:text="Vestibulum et metus egestas, frementum libero."
+            android:layout_marginBottom="50dp"/>
+
+
+</RelativeLayout>
